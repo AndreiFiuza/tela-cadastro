@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - ClubeFy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ClubeFy</h1>
+        <div class="form-container">
+            <h2>Cadastrar-se</h2>
+            <p>Se não tiver login, faça agora mesmo!</p>
+
+            <form id="cadastro-form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" required>
+
+                <label for="senhaRecuperacao">Senha de Recuperação:</label>
+                <input type="text" id="senhaRecuperacao" required>
+
+                <label for="premium">Premium:</label>
+                <input type="text" id="premium" value="1" required>
+
+                <label for="imagemPerfil">Imagem de Perfil (URL):</label>
+                <input type="text" id="imagemPerfil" value="https://assets.propmark.com.br/uploads/2022/02/WhatsApp-Image-2022-02-18-at-08.52.06.jpeg" required>
+
+                <button type="submit">Cadastrar</button>
+            </form>
+
+            <p>Já possui login? <a href="#">Clique aqui</a></p>
+        </div>
+
+        <footer>copyright © 2025</footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
